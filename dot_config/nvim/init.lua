@@ -513,8 +513,12 @@ cmp.setup {
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
-vim: ts=2 sts=2 sw=2 et
+-- vim: ts=2 sts=2 sw=2 et
 --
 vim.wo.relativenumber = true
 vim.wo.number = true
 
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.softtabstop = 2
+vim.opt.expandtab = true
